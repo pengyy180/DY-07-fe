@@ -1,0 +1,300 @@
+{
+    "easycom": {
+        "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+		       "navigationStyle": "custom"
+		    }
+		    
+		},
+        {
+            "path": "pages/login/login",
+            "style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#282828"
+            }
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/live/live",
+            "style" :                                                                                    
+            {
+             "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/welfare/welfare",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/recordCenter/recordCenter",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/withdraw/withdraw",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/recharge/recharge",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/rechargeRecord/rechargeRecord",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/serviceOnline/serviceOnline",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/gameRecordIndex/gameRecordIndex",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/withdrawRecord/withdrawRecord",
+            "style" :                                                                                    
+            {
+              "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/withdrawDetail/withdrawDetail",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/message/message",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/managebankcard/managebankcard",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/setting/setting",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/loginPassword/loginPassword",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/agentcenter/agentcenter",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/agentcenter/member",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/my/agentcenter/report",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/welfare/movie",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/welfare/moviedetail",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/lottery/lottery",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/infomation/infomation",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/setting/capitalSettings",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/setting/changePassword",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/indexdetails",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/live/video",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/welfare/fangpian",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/gameRecordIndex/gamerecorddetail",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/withdraw/withdrawtips",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "南山集团",
+        "navigationBarBackgroundColor": "#f6f6f6",
+        "backgroundColor": "#282828",
+        "backgroundColorTop": "#FFFFFF"
+    },
+	"tabBar": {
+	   "color": "#999999",
+	   "selectedColor": "#e6b98a",
+	   "borderStyle": "white",
+	   "backgroundColor": "#1f1c1f",
+	   "list": [
+	   {
+	     "pagePath": "pages/index/index",
+	     "iconPath": "static/t1-2.png",
+	     "selectedIconPath": "static/t1-1.png",
+	     "text": "首页"
+	   },
+	   {
+	     "pagePath": "pages/live/live",
+	     "iconPath": "static/t2-2.png",
+	     "selectedIconPath": "static/t2-1.png",
+	     "text": "直播间"
+	   },{
+	     "pagePath": "pages/welfare/welfare",
+	     "iconPath": "static/t3-2.png",
+	     "selectedIconPath": "static/t3-1.png",
+	     "text": "福利"
+	   },{
+	     "pagePath": "pages/my/my",
+	     "iconPath": "static/t4-2.png",
+	     "selectedIconPath": "static/t4-1.png",
+	     "text": "我的"
+	   }
+	   ]
+	}
+    
+}
